@@ -8,12 +8,10 @@ import {
   ButtonGroup,
   Drawer,
   DrawerBody,
-  DrawerHeader,
   DrawerContent,
   DrawerCloseButton,
   useColorMode,
-  useDisclosure,
-  
+  useDisclosure, 
 } from '@chakra-ui/react';
   
 import { SunIcon,MoonIcon,HamburgerIcon } from '@chakra-ui/icons';
@@ -36,7 +34,8 @@ function App() {
         <Button 
         onClick={toggleColorMode} 
         mt={4}  
-         >{colorMode==='light'?<><SunIcon  />  </>:<><MoonIcon  />  </>}</Button>
+         >{colorMode==='light'?<SunIcon/>:<MoonIcon/>}
+        </Button>
         <Button display={['flex','flex','none']} onClick={onOpen} mt={4} ><HamburgerIcon/></Button>
         <Drawer
         isOpen={isOpen}

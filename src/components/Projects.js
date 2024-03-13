@@ -11,7 +11,7 @@ function Projects() {
         { heading: 'Copy Message extension for 7TV', text: 'Copies message in twitch chat if you have 7TV extension', link: 'https://addons.mozilla.org/en-US/firefox/addon/message-copier-for-7tv/', github: 'https://github.com/sougataghar477/7TV-message-copier-for-twitch' },
         { heading: 'Twitch brightness controller', text: 'Controls brightness of the video player of a twitch stream', link: 'https://addons.mozilla.org/en-US/firefox/addon/twitch-brightness-reducer/', github: 'https://github.com/sougataghar477/twitch-brightness-reducer' }
     ]
-    return <Flex wrap={'wrap'} gap={8} p={8}>
+    return <Flex wrap={'wrap'} gap={8} p={2}>
         <Heading>My Projects</Heading>
         {cards.map((card, index) => (
             <Card key={index} flexGrow={1} >
