@@ -23,7 +23,7 @@ function Projects() {
                             <Link href={card.link} isExternal>
                                 <Button>Check Out</Button>
                             </Link>
-                            {card.github && <Link href={card.github}>
+                            {card?.github && <Link href={card.github}>
                                 <Button>Github</Button>
                             </Link>}
 

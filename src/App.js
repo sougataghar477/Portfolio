@@ -1,10 +1,9 @@
 import './App.css';
 import { 
-  ChakraProvider,
   Container,
   Flex,
   Box, 
-  Button,useColorMode } from '@chakra-ui/react';
+  Button,Heading,useColorMode } from '@chakra-ui/react';
 import { SunIcon,MoonIcon } from '@chakra-ui/icons';
   import { BrowserRouter as Router, Routes, Route, NavLink   } from 'react-router-dom';
 import Home from './components/Home';
@@ -18,7 +17,13 @@ function App() {
 
       <Router>
         <Container maxW='90ch'>
+      <Flex justifyContent={'space-between'} alignItems={'center'}>
+        <Heading>Sougata Ghar</Heading>
+        <Button onClick={toggleColorMode} 
+        mt={4}  
+         >{colorMode==='light'?<><SunIcon  />  </>:<><MoonIcon  />  </>}</Button>
 
+      </Flex>
       
       <Flex gap={16} mt={'16px'}>
         <Box display={['none','block']} w={'250px'}>
@@ -26,7 +31,6 @@ function App() {
             {links.map(link=> 
             <NavLink   className={`link ${(isActive)=>isActive ? "active" : null}`}  
             to={link.to}><li style={{listStyleType:'none',fontWeight:'bold',width:'250px'}}>{link.name}</li></NavLink>)}
-            <Button onClick={toggleColorMode} mt={4} borderRadius={'lg'} w={'100%'} size={'lg'}>{colorMode==='light'?<><SunIcon mr={2}/> Light Mode</>:<><MoonIcon mr={2}/> Dark Mode</>}</Button>
           </ul>
         </Box>
         <Box flex='1'>
@@ -39,7 +43,7 @@ function App() {
         </Routes>
   </Box>
       </Flex>
- 
+ <footer>©{new Date().getFullYear()}</footer>
         </Container>
 
       </Router>

@@ -10,3 +10,7 @@
 .active li{
   list-style-type: none;
 }
+footer{
+  position: absolute;
+  bottom: 0;
+}
