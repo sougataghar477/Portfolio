@@ -7,7 +7,9 @@
   padding: 16px;
   border-radius: 32px;
 }
-.active li{
+.link li{
   list-style-type: none;
+  font-weight: bold;
+  width: 250px;
 }
  
