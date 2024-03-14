@@ -2,7 +2,7 @@ import './App.css';
 import { 
   Container,
   Flex,
-  Box
+  Box,Link
 } from '@chakra-ui/react';
 import Sidebar from './components/Sidebar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -26,7 +26,7 @@ function App() {
         </Routes>
   </Box>
       </Flex>
- <footer>©{new Date().getFullYear()}</footer>
+ <footer><Link mr={3} href='https://github.com/sougataghar477/Portfolio'>Github</Link>©{new Date().getFullYear()}</footer>
         </Container>
       </Router>
   );
