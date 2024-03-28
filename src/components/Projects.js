@@ -4,6 +4,7 @@ function Projects() {
         { heading: 'Kontrast Productions', text: 'Made the portfolio and contact sections', link: 'https://www.kontrastproduction.sk/#testimonials' },
         { heading: 'PersonalFinance redesign', text: 'A website I made with react', link: 'https://www.personalfinances.stage.iamthedev.eu/' },
         { heading: 'Rabbit API', text: 'An open source Rabbit Image API made with Next JS,Chakra UI,MongoDB and Firebase.', link: 'https://rabbit-api-two.vercel.app/', github: 'https://github.com/sougataghar477/rabbit-api' },
+        {heading:'Todos App',text:'A full stack todos app made with Next JS,Mantine',link:'https://test-todos-next.vercel.app/',github:'https://github.com/sougataghar477/test-todos-next'},
         { heading: 'Help Ukraine', text: 'A website containing useful links for helping Ukraine.', link: 'https://help-ukraine.netlify.app/', github: 'https://github.com/sougataghar477/helpUkraine' },
         { heading: 'CSS Units Converter', text: 'Converts lots of units into another units.', link: 'https://css-unitsconverter.netlify.app/', github: 'https://github.com/sougataghar477/css-units-converter' },
         { heading: 'Instagram image copier', text: 'An addon for Firefox that copies image or its url on click.', link: 'https://chromewebstore.google.com/detail/image-copier-for-instsgra/lejedjokmndehmcbfmpjbmimihobnfpo', github: 'https://github.com/sougataghar477/instagram-image-url-copier' },
