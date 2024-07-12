@@ -5,7 +5,7 @@ import MobileNavigationBar from "./MobileNavigationBar";
 function Header(){
     const { isOpen, onOpen, onClose } = useDisclosure();
     const { colorMode, toggleColorMode } = useColorMode();
-    return <Flex justifyContent={'space-between'} alignItems={'center'}>
+    return <Flex justifyContent={'space-between'} alignItems={'center'} position={'fixed'} w={'90ch'} zIndex={10}>
     <Heading>Sougata Ghar</Heading>
     <ButtonGroup>
     <Button 

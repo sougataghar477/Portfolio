@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Container maxW='90ch'>
       <Header/>
-      <Flex gap={16} mt={'16px'}>
+      <Flex gap={16} mt={'24px'}>
         <Sidebar/>
         <Box flex='1'>
         <Routes>
