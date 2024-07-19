@@ -5,7 +5,16 @@ import MobileNavigationBar from "./MobileNavigationBar";
 function Header(){
     const { isOpen, onOpen, onClose } = useDisclosure();
     const { colorMode, toggleColorMode } = useColorMode();
-    return <Flex gap={16} justifyContent={['flex-start','space-between','space-between']} alignItems={'center'} position={['static','fixed','fixed']} maxW={'90ch'} zIndex={10}>
+    return <Flex gap={16} 
+    
+    justifyContent={['space-between','space-between','space-between']} 
+    
+    alignItems={'center'} 
+    
+    maxW={'90ch'} 
+    
+    zIndex={10}>
+    
     <Heading>Sougata Ghar</Heading>
     <ButtonGroup>
     <Button 
