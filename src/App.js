@@ -26,7 +26,7 @@ function App() {
         </Routes>
   </Box>
       </Flex>
- <footer><Link mr={3} href='https://github.com/sougataghar477/Portfolio'>Github</Link>©{new Date().getFullYear()}</footer>
+ <footer><Link isExternal mr={3} href='https://github.com/sougataghar477/Portfolio'>Github</Link>©{new Date().getFullYear()}</footer>
         </Container>
       </Router>
   );
