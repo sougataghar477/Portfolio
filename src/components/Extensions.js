@@ -1,7 +1,7 @@
 import { Flex, Card, Button, CardBody, Link, Stack, Heading, Text } from "@chakra-ui/react";
 function Extensions(){
 const extensions=[
-    { heading: 'Instagram image copier', text: 'An addon for Firefox that copies image or its url on click.', link: 'https://image-copier-website.vercel.app', github: 'https://github.com/sougataghar477/instagram-image-url-copier' },
+    { heading: 'Instagram image copier', text: 'An addon that copies image or its url on a click.', link: 'https://image-copier-website.vercel.app', github: 'https://github.com/sougataghar477/instagram-image-url-copier' },
     { heading: 'Twitch brightness controller', text: 'Controls brightness of the video player of a twitch stream', link: 'https://addons.mozilla.org/en-US/firefox/addon/twitch-brightness-reducer/', github: 'https://github.com/sougataghar477/twitch-brightness-reducer' },
     { heading: 'Copy Message extension for 7TV', text: 'Copies message in twitch chat if you have 7TV extension', link: 'https://addons.mozilla.org/en-US/firefox/addon/message-copier-for-7tv/', github: 'https://github.com/sougataghar477/7TV-message-copier-for-twitch' },
 ]
