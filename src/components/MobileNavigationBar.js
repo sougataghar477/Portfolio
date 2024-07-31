@@ -6,7 +6,7 @@ import {
   } from '@chakra-ui/react';
   import { NavLink } from 'react-router-dom';
 function MobileNavigationBar({isOpen,onClose}){
-const links=[{name:'🏡  Home',to:'/'},{name:'📋  Projects',to:'/projects'},{name:'📞  Contact',to:'/contact'}]
+const links=[{name:'🏡  Home',to:'/'},{name:'📋  Projects',to:'/projects'},{name:'🧩 Extensions',to:'/extensions'},{name:'📞  Contact',to:'/contact'}]
     return  <Drawer
     isOpen={isOpen}
     placement='right'
