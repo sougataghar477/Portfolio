@@ -2,7 +2,6 @@ import { Flex, Card, Button, CardBody, Link, Stack, Heading, Text } from "@chakr
 function Projects() {
     let projects = [
         { heading:'TimeFramed',text:'Made some parts of the website with React JS',link:'https://timeframed.art'},
-        {heading:'Plantly',text:'A Full Stack E-Commerce Website I made with Next JS and Chakra UI',link:'https://plantly-rho.vercel.app/',github:'https://github.com/sougataghar477/plantly'},
         { heading: 'PersonalFinance', text: 'A website I made with react', link: 'https://www.personalfinances.stage.iamthedev.eu/' },
         { heading: 'Rabbit API', text: 'A fullstack open source Rabbit Image API made with Next JS,Chakra UI,MongoDB and Firebase.', link: 'https://rabbit-api-two.vercel.app/', github: 'https://github.com/sougataghar477/rabbit-api' },
         { heading: 'Kontrast Productions', text: 'Made the portfolio and contact sections', link: 'https://www.kontrastproduction.sk/#testimonials' },
